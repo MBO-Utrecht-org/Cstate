@@ -11,3 +11,6 @@ section: issue
 ---
 
 There may be disruptions in the rollout.
+
+*Resolved* -
+We believe all users experiencing issues have been able to connect at this time. {{< track "2020-10-05 16:58:00" >}}
