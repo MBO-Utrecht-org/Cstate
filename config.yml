@@ -1,4 +1,4 @@
-############################################################
+u############################################################
 # +------------------------------------------------------+ #
 # |                       Notes                          | #
 # +------------------------------------------------------+ #
@@ -125,8 +125,8 @@ params:
       description: De hoofdservices om het onderwijs goed te laten verlopen.
       closed: false
     - name: Diensten
-      description: De hoofdservices om de ondersteuning goed te laten verlopen.
-      closed: true
+      description: De ondersteunende services om processen goed te laten verlopen.
+      closed: false
     - name: Anders
       description: Alle andere services om de werkzaamheden te ondersteunen.
       closed: true
@@ -163,14 +163,14 @@ params:
   #
   # dateFormat Default: "January 2, 2006 at 3:04 PM"
   # shortDateFormat Default: "15:04 — Jan 2"
-  dateFormat: January 2, 2021 at 15:04
-  shortDateFormat: 15:04 — 2 Jan 2021
+  dateFormat: 2 January 2021 at 15:04
+  shortDateFormat: 15:04 — 02 Jan 2021
 
   # What header design should we use?
   #
   # Default: true
   # BOOLEAN; `true`, `false`
-  useLargeHeaderDesign: false
+  useLargeHeaderDesign: true
 
   # Should incident history be separated
   # like in an archive view?
@@ -179,7 +179,7 @@ params:
   #
   # Default: `yearly`
   # STRING; `monthly`, `yearly`, `none`
-  incidentHistoryFormat: "yearly"
+  incidentHistoryFormat: "monthly"
 
   # Disable dark mode
   #
@@ -273,7 +273,7 @@ params:
   #
   # Default: `true`
   # BOOLEAN; `true`, `false`
-  alwaysKeepBrandColor: true
+  alwaysKeepBrandColor: false
   
   # Introduced in v4.0.1 for consistent
   # site title text color.
