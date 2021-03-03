@@ -152,7 +152,11 @@ params:
     - name: Wervende website (www.mboutrecht.nl)
       description: De website van MBO Utrecht voor werving en algemene informatie
       category: Anders
-
+      
+  # Tabs on homepage
+  customTabs:
+ - name: Monitoring
+   link: https://monitor.mboutrecht.nl
   # What date format to use?
   #
   # Hugo formatting docs:
