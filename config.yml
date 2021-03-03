@@ -153,10 +153,7 @@ params:
       description: De website van MBO Utrecht voor werving en algemene informatie
       category: Anders
       
-  # Tabs on homepage
-  customTabs:
- - name: Monitoring
-   link: https://monitor.mboutrecht.nl
+ 
   # What date format to use?
   #
   # Hugo formatting docs:
@@ -226,11 +223,11 @@ params:
   # Uncomment to enable.
   #
   # Format:
-  # customTabs:
-  #  -
-  #    name: Name
-  #    link: https://example.com
-
+   customTabs:
+    -
+      name: Monitoring
+      link: https://monitor.mboutrecht.nl
+      
   # Disable complex server-side
   # calculations that may impact
   # your build performance
