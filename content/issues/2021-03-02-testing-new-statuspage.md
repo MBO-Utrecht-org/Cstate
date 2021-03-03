@@ -6,7 +6,7 @@ resolvedWhen: 2021-03-02 16:58:00
 # Possible severity levels: down, disrupted, notice
 severity: notice
 affected:
-  - diensten
+  - Diensten
 section: issue
 ---
 
