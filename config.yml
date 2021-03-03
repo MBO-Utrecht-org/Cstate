@@ -223,10 +223,10 @@ params:
   # Uncomment to enable.
   #
   # Format:
-   customTabs:
-    -
-      name: Monitoring
-      link: https://monitor.mboutrecht.nl
+  # customTabs:
+  # -
+  #   name: Monitoring
+  #   link: https://monitor.mboutrecht.nl
       
   # Disable complex server-side
   # calculations that may impact
