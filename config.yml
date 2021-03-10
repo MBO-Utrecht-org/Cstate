@@ -125,7 +125,7 @@ params:
       description: De hoofdservices om het onderwijs goed te laten verlopen.
       closed: false
     - name: Diensten
-      description: De hoofdservices om de ondersteuning goed te laten verlopen.
+      description: De ondersteunende services om processen goed te laten verlopen.
       closed: true
     - name: Anders
       description: Alle andere services om de werkzaamheden te ondersteunen.
@@ -163,8 +163,9 @@ params:
   #
   # dateFormat Default: "January 2, 2006 at 3:04 PM"
   # shortDateFormat Default: "15:04 — Jan 2"
-  dateFormat: 2 January, 2021 at 15:04
+  dateFormat: January 2, 2021 at 15:04
   shortDateFormat: 15:04 — 2 Jan 2021
+  useRelativeTime: true
 
   # What header design should we use?
   #
