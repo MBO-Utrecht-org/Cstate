@@ -165,7 +165,7 @@ params:
   # shortDateFormat Default: "15:04 — Jan 2"
   dateFormat: January 2, 2021 at 15:04
   shortDateFormat: 15:04 — 2 Jan 2021
-  useRelativeTime: true
+  enableGitInfo: true
 
   # What header design should we use?
   #
