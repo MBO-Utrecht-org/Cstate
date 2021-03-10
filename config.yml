@@ -1,4 +1,4 @@
-u############################################################
+############################################################
 # +------------------------------------------------------+ #
 # |                       Notes                          | #
 # +------------------------------------------------------+ #
@@ -125,8 +125,8 @@ params:
       description: De hoofdservices om het onderwijs goed te laten verlopen.
       closed: false
     - name: Diensten
-      description: De ondersteunende services om processen goed te laten verlopen.
-      closed: false
+      description: De hoofdservices om de ondersteuning goed te laten verlopen.
+      closed: true
     - name: Anders
       description: Alle andere services om de werkzaamheden te ondersteunen.
       closed: true
@@ -170,7 +170,7 @@ params:
   #
   # Default: true
   # BOOLEAN; `true`, `false`
-  useLargeHeaderDesign: true
+  useLargeHeaderDesign: false
 
   # Should incident history be separated
   # like in an archive view?
@@ -179,7 +179,7 @@ params:
   #
   # Default: `yearly`
   # STRING; `monthly`, `yearly`, `none`
-  incidentHistoryFormat: "monthly"
+  incidentHistoryFormat: "yearly"
 
   # Disable dark mode
   #
@@ -273,7 +273,7 @@ params:
   #
   # Default: `true`
   # BOOLEAN; `true`, `false`
-  alwaysKeepBrandColor: false
+  alwaysKeepBrandColor: true
   
   # Introduced in v4.0.1 for consistent
   # site title text color.
