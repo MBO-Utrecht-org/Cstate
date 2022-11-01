@@ -7,3 +7,4 @@ section: issue
 ---
 
 We will shut down our network at midnight UTC on Feb 24. This does not affect the current status.
+Reminder will be send
